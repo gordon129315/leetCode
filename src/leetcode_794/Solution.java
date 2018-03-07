@@ -53,19 +53,23 @@ public class Solution {
     }
 
     public boolean isWin(char[][] board2D, char c) {
-        if ((board2D[0][0] == c && board2D[0][0] == board2D[0][1] && board2D[0][1] == board2D[0][2]) ||
-            (board2D[1][0] == c && board2D[1][0] == board2D[1][1] && board2D[1][1] == board2D[1][2]) ||
-            (board2D[2][0] == c && board2D[2][0] == board2D[2][1] && board2D[2][1] == board2D[2][2]) ||
-            (board2D[0][0] == c && board2D[0][0] == board2D[1][0] && board2D[1][0] == board2D[2][0]) ||
-            (board2D[0][1] == c && board2D[0][1] == board2D[1][1] && board2D[1][1] == board2D[2][1]) ||
-            (board2D[0][2] == c && board2D[0][2] == board2D[1][2] && board2D[1][2] == board2D[2][2]) ||
-            (board2D[0][0] == c && board2D[0][0] == board2D[1][1] && board2D[1][1] == board2D[2][2]) ||
-            (board2D[2][0] == c && board2D[2][0] == board2D[1][1] && board2D[1][1] == board2D[0][2])) {
+        for (int i = 0; i < board2D.length; i++) {
+            if (c == board2D[i][0] && c == board2D[i][1] && c == board2D[i][2]) {
+                return true;
+            }
+            else if (c == board2D[0][i] && c == board2D[1][i] && c == board2D[2][i]) {
+                return true;
+            }
+        }
+        if (c == board2D[0][0] && c == board2D[1][1] && c == board2D[2][2]) {
             return true;
         }
-
-
+        else if (c == board2D[2][0] && c == board2D[1][1] && c == board2D[0][2]) {
+            return true;
+        }
         return false;
     }
+
+
 
 }
