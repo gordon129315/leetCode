@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09225afb-2184-4881-97d8-7db8238fee8c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode_821/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode_822/DPSolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode_822/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,20 +20,7 @@
     </SUITE>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode_821/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -70,8 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode_402/Solution.java" />
-        <option value="$PROJECT_DIR$/src/reorganize_string/Solution.java" />
         <option value="$PROJECT_DIR$/src/reverse_integer/ReverseInteger.java" />
         <option value="$PROJECT_DIR$/src/reverse_integer/ReverseString.java" />
         <option value="$PROJECT_DIR$/src/subarray_product_less_than_K/Solution.java" />
@@ -121,6 +106,8 @@
         <option value="$PROJECT_DIR$/src/leetcode_819/Solution.java" />
         <option value="$PROJECT_DIR$/src/leetcode_817/Solution.java" />
         <option value="$PROJECT_DIR$/src/leetcode_821/Solution.java" />
+        <option value="$PROJECT_DIR$/src/leetcode_822/Solution.java" />
+        <option value="$PROJECT_DIR$/src/leetcode_822/DPSolution.java" />
       </list>
     </option>
   </component>
@@ -177,12 +164,6 @@
               <item name="leetCode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="leetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode_821" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -222,17 +203,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (4)">
+  <component name="RunManager" selected="Application.Solution">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode_812.Solution" />
+    <configuration name="DPSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode_822.DPSolution" />
       <module name="leetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode_812.*" />
+          <option name="PATTERN" value="leetcode_822.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -277,6 +258,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="leetcode_817.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode_822.Solution" />
+      <module name="leetCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode_822.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -374,19 +366,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Solution (5)" />
       <item itemvalue="Application.Solution (4)" />
+      <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.DPSolution" />
         <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Solution (5)" />
         <item itemvalue="Application.Solution (3)" />
-        <item itemvalue="Application.Solution (2)" />
-        <item itemvalue="Application.Solution (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -435,19 +427,19 @@
       <workItem from="1523155401488" duration="13803000" />
       <workItem from="1523755223219" duration="6186000" />
       <workItem from="1524526068968" duration="9000" />
-      <workItem from="1524536821610" duration="927000" />
+      <workItem from="1524536821610" duration="7142000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="218377000" />
+    <option name="totallyTimeSpent" value="224592000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32839224" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
@@ -455,7 +447,7 @@
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49791667" weight="0.34663627" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49791667" weight="0.34530386" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -470,7 +462,6 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.3299356" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32839224" />
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -489,20 +480,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode_771/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode_784/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode_386/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -830,15 +807,39 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
           <caret line="63" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <element signature="e#0#1434#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode_821/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="38">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode_822/DPSolution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#2784#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode_822/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="3" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#1011#0" expanded="true" />
           </folding>
         </state>
       </provider>
