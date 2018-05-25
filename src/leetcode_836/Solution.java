@@ -3,7 +3,7 @@ https://leetcode.com/problems/rectangle-overlap/description/
 836. Rectangle Overlap
  */
 
-package tbd_leetcode_836;
+package leetcode_836;
 
 public class Solution {
     public static void main(String[] args) {
@@ -16,6 +16,7 @@ public class Solution {
         System.out.println(isRectangleOverlap(rec1, rec2));
     }
 
+    //the origin point is the bottom-left point
     public boolean isRectangleOverlap(int[] rec1, int[] rec2) {
         int length = rec1[0] < rec2[0] ? rec1[2] - rec1[0] : rec2[2] - rec2[0];
         int width = rec1[1] < rec2[1] ? rec1[3] - rec1[1] : rec2[3] - rec2[1];
