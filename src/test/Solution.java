@@ -1,6 +1,8 @@
 package test;
 
+import java.util.Iterator;
 import java.util.LinkedList;
+import java.util.List;
 
 public class Solution {
     public static void main(String[] args) {
@@ -15,33 +17,30 @@ public class Solution {
         list1.add(2);
         list1.add(5);
         System.out.println(list1);
-        Integer i = 2;
-        list1.remove(i);
+
+        LinkedList<Integer> list2 = deepCopy(list1);
+
+        Iterator<Integer> iter = list1.iterator();
+        while (iter.hasNext()){
+            Integer next = iter.next();
+            if (next == 2) {
+                iter.remove();
+                break;
+            }
+        }
+
         System.out.println(list1);
-
-        System.out.println();
-
-        LinkedList<String> list2 = new LinkedList<>();
-        list2.add("1");
-        list2.add("2");
-        list2.add("3");
-        list2.add("2");
-        list2.add("5");
-        System.out.println(list2);
-        list2.remove("2");
         System.out.println(list2);
 
         System.out.println();
 
-        LinkedList<Character> list3 = new LinkedList<>();
-        list3.add('1');
-        list3.add('2');
-        list3.add('3');
-        list3.add('2');
-        list3.add('5');
-        System.out.println(list3);
-        Character c = '2';
-        list3.remove(c);
-        System.out.println(list3);
+    }
+
+    public LinkedList<Integer> deepCopy(LinkedList<Integer> list) {
+        LinkedList<Integer> newList = new LinkedList<>();
+        for (Integer i : list) {
+            newList.add(i);
+        }
+        return newList;
     }
 }
